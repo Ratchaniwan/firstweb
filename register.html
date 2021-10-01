@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
     <title>Register</title>
 </head>
 <body>
-    <h1>Register.html</h1>
+    <p><h1>Register.html</h1></p>
+    <p><h1>Register Form</h1></p>
+    <form>
+        <p><b>ชื่อ : <input type="text"></b></p>
+        <p><b>นามสกุล : <input type="text"></b></p>
+        <p><b>Email : <input type="email"></b></p>
+        <p><b>วันเกิด : <input type="date"></b></p>
+        <p><b>น้ำหนัก : <input type="number" min="1" max="500"></b></p>
+        <p><b>ส่วนสูง : <input type="number" min="1" max="500"></b></p>
+        <p><b>ใส่รูปภาพ : <input type="file" name="myfile"></b></p>
+        <p><b>password : <input type="password"></b></p>
+        <p><b>Gender : <input type="radio" name="Gender" value="Male">ชาย
+                    <input type="radio" name="Gender" value="Female">หญิง</b></p>
+        <p><b>สีที่ชอบ : <input type="color" name="Color"></b></p>
+        <p><b>ประเทศที่ชอบ : <input type="checkbox" name="Land1" value="Korea">เกาหลี
+                    <input type="checkbox" name="Land2" value="Japan">ญี่ปุ่น
+                    <input type="checkbox" name="Land3" value="Thai">ไทย</b></p>
+        <p><input type="submit" value="ตกลง">
+            <input type="reset" value="ยกเลิก"></p>
+
+    </form>    
 </body>
 </html>
